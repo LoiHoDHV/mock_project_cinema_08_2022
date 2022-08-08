@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/decorators">
+
+
+	<!-- Trỏ vào để lấy giao diện dựa theo đường URL -->
+	<!-- <decorator name="trang-chu" page="web.jsp">
+		<pattern>/trang-chu</pattern>
+	</decorator> -->
+
+	<decorator name="admin" page="admin.jsp">
+		<pattern>/admin</pattern>
+	</decorator>
+	<decorator name="subadmin" page = "admin.jsp">
+		<pattern>/admin/*</pattern>
+	</decorator>
+
+</decorators>
+
